@@ -101,6 +101,9 @@ The result:
 - The Fitness is the end result value
 - The errorsize tells how far there of from there end goal
 
+The longer this application runs the better it becomes in reaching its end goal 
+
+
 **What happens**
 - The application starts with a new set of random generated weights for each chromosome (The weight are the interconnections between the neurons, the thickness of all the weights determines the chromosome's end value. (see the weight as the thickness of a real neuron, the thicker it is the stronger the signals are that pass through it)
 - The population is a list of these chromosomes.
