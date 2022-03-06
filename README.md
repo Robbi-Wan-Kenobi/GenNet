@@ -5,17 +5,23 @@ I have created this in a China Internship where I had the honor to get lessens f
 Some notes I took during these lessons
 
 
+**Program parameters:**
 
-Popsize                     100 chromozones  
-Number of neurons           16 
-Number of bits/weight       10 (9+1) 9 bits + 1 for + or – =(P)
-Length of chromozones       N² (P) = 16² (10) = 2560
-Mutation rate               ~1 Bitflip/chromosome/generation
-Number of ticks             60
+Parameter | Value | Explenation
+--- | --- | --- 
+Populationsize | 100 | The amount of chromozones that compete with each other
+Number of neurons | 16 | The amount of connections in one chromozones
+Number of bits/weight| 10 | (9+1) 9 bits + 1 for + or – =(P)
+Length of chromozones| 2560 | N² (P) = 16² (10) 
+Mutation rate | ~1 | Bitflips per chromosome per generation
+Number of ticks | 60 | Amount of steps one GenNet takes to creata a sinus 
 
-A: Build population 						
+**A: Build population**
 Build an neurologic network in an array like the following:
-W11	W12	W13	…..	W21	W22	W23	…	
+
+| W11 | W12 | W13 | …. | W21 | W22 | W23 | … | 
+| - | - | - | - | - | - | - | - | 
+
 Each position stands for one weight of a connection in the network	
   
 Fill the neural network with random numbers:
